@@ -22,3 +22,5 @@ tsline  financial_sectorasset_side financial_sectorliability_side, title("金融
 
 // 图形汇总
 graph combine plot1.gph plot2.gph plot3.gph plot4.gph, row(2)
+// graph export "$out/宏观杠杆率.pdf"
+// !rm -rf *.gph // 删除中间图片
