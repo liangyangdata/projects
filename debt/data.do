@@ -1,7 +1,6 @@
 * Set global path
-global Path `c(pwd)'
-global Data $Path/Data 
-global Raw $Path/Raw
+do stataFun.do // 导入自定义函数
+GWD // 设置工作路径
 
 *===================
 *- 数据处理

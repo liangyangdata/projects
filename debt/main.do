@@ -1,3 +1,5 @@
+do stataFun.do // 导入自定义函数
+GWD // 设置工作路径
 
 use "https://liangyangdata.github.io/data/debt.dta",clear
 
